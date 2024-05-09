@@ -1,0 +1,86 @@
+      <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <style>
+      img {
+        width: 400px;
+        height: auto;
+      }
+      a:visited {
+        color: orange;
+      }
+      h1 {
+    font-size: 50px; 
+  }
+  p.board-description {
+    font-size: 35px; /* Adjust font size as needed */
+  }
+    h2 {
+      text-decoration: underline;
+      font-size: 45px;
+    }
+    .punnett-square {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Gif Board</h1>
+
+    <p>Our Internet Favorites</p>
+    <!-- <p>
+      Maybe you add a link(<a href="#">home</a>) or two(<a href="#">project</a>)
+    </p> -->
+
+    <!-- Here I surrouned my js sketch with the id div talk. Again I call it portrait in my sketch.js, so it's portrait here -->
+    <div id="portrait">
+      <script src="sketch.js"></script>
+    </div>
+     <p>
+      This is a board of our hand picked gifs from the bowels of the internet. Each cup of water displays a unique visual experience to the screen. Just dip the extension into a cup of water to display the awesomeness of that cup. Which is your favorite?
+    </p>
+    <p>From the minds of Mark, Justin, and Chris.</p>
+    <h2><br><br>Documentation<br></h2>
+    
+    
+  <!-- Picture Files Documentation -->
+  <div class="punnett-square">
+    <img src="m_j_.jpg" alt="Description of third picture">
+    <p>Mark and Justin playing with the clay on Day 1</p>
+    <img src="cu_m.jpg" alt="Description of another picture">
+    <p>Close up of Mark testing the Makey Makey mechanics on Day 1</p>
+    <img src="B_d_T.jpg" alt="Description of the picture">
+    <p>Justin and Mark testing out the Hydro-powered Makey Makeys</p>
+    <img src="w_j_m.jpg" alt="Description of third picture">
+    <p>Justin and Mark playing with the water. Funnnn!</p>
+  </div>
+
+
+    <p>
+     On our first day, we decided to design our Makey Makey to be functional with the power of water. Our design consists of a box with 6 circles cut out of one of the sides. This allows for the cups to be stable and able to get filled with water. We also used aluminum foil on the sides to act as buttons. To activate these "buttons", we grabbed a special stick from outside the Art Department and CAREFULLY wrapped the stick with magic aluminum foil. With this stick acting as the conductor, we activate our code everytime the conductor touches the water. Very neat!
+    </p>
+
+    <div class="punnett-square">
+      <img src="p1.jpg" alt="Desc. 4">
+      <p><br><br><br><br><br>Creating the device</p>
+      <img src="p2.jpg" alt="Desc. 5">
+      <p><br><br><br><br><br>Finished device</p>
+      <video width="auto" height="350px" controls>
+        <source src="p3.mp4" type="video/mp4">
+      </video>
+      <p><br><br><br>Testing</p>
+    </div>
+
+    
+
+    <p>
+      We took inpsiration from a Youtube video where a man used an Aloe Vera leaf wrapped in aluminum foil to activate the colored water cups. The link is here: <a href="https://www.youtube.com/watch?v=TCq3-kUan_w">Makey Makey Water Piano Inpsiration</a>
+    </p>
+  </body>
+</html>
